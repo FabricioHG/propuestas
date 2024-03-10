@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'Gotham Ultra';
+  src: url('../fonts/GothamUltra.otf');
+}
+@font-face {
+  font-family: 'GothamBlack';
+  src: url('../fonts/GothamBlack.otf');
+}
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+/*nav*/
+header nav.navbar-expand-lg.navbar-light.text-dark.bg-light{
+  display: block;
+}
+#navbarSupportedContent {
+  justify-content: center !important;
+}
+header nav button.navbar-toggler {
+  display: block;
+  margin: auto;
+}
+.dis-block{
+	display: block !important;
+}
+#block-themeprop-branding .navbar-brand.d-flex.align-items-center{
+	justify-content: center;
+}
+#block-themeprop-branding .navbar-brand.d-flex.align-items-center div{
+	text-align: center;
+}
+/*Liston interior*/
+.liston_int.container-fluid {
+  padding: 0px;
+}
+#block-themeprop-listoninterior img{
+	width: 100%;
+	height: auto;
+}
+/*Formulario*/
+#edit-container {
+}
+#edit-container-01 {
+  flex-grow: 1;
+}
+#edit-container-02 {
+  padding: 30px;
+}
+#edit-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+#edit-documento {
+  width: 100%;
+  height: 100%;
+}
+.parr_ifram{
+	width: 100%;
+	height: 100%;
+}
+#edit-documento iframe{
+	width: 100%;
+	height: 100%;
+
+}
+.centrar{
+	text-align: center;
+}
+h2.btn.bk_rojo{
+	font-family: "GothamBlack";
+}
+.font_n{
+	font-family: "GothamBlack";
+}
+.font_w{
+	font-family: "Gotham Ultra";
+}
+.txt_n{
+	font-family: "Montserrat-Bold";
+}
+h2.btn.bk_rojo {
+  font-family: "GothamBlack";
+  border: 1px solid;
+  background-color: #872639;
+  color: #fff;
+  font-size: 35px;
+  border-radius: 15px;
+  border: 1px solid #872639;
+  margin-bottom: 20px;
+}
+.font_w {
+  font-family: "Gotham Ultra";
+  display: block;
+  font-size: 40px;
+}
+.font_n {
+  font-family: "GothamBlack";
+  font-size: 25px;
+  position: relative;
+  top: -20px;
+}
+.txt_n {
+  font-family: "Montserrat-Bold";
+  font-size: 24px;
+}
+.container.cont_info{
+	text-align: center;
+}
+#edit-actions {
+  text-align: right;
+  padding-right: 20px;
+}
+#edit-submit {
+  background-color: #872639;
+  border: 1px solid #872639;
+}
+main{
+	background-image: url(../images/bg_3.png);
+	background-size: cover;
+}
+

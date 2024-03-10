@@ -1,0 +1,7 @@
+# Main theme library.
+global:
+  js:
+    js/themeprop.js: {}
+  css:
+    theme:
+      css/estilos.css: {}
