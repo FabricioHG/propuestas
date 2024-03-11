@@ -105,9 +105,7 @@ h2.btn.bk_rojo {
   font-family: "Montserrat-Bold";
   font-size: 24px;
 }
-.container.cont_info{
-	text-align: center;
-}
+
 #edit-actions {
   text-align: right;
   padding-right: 20px;
@@ -116,8 +114,36 @@ h2.btn.bk_rojo {
   background-color: #872639;
   border: 1px solid #872639;
 }
-main{
-	background-image: url(../images/bg_3.png);
-	background-size: cover;
-}
 
+#block-themeprop-listonencabezado{
+	background-image: url(/themes/custom/themeprop/images/fondo_cabanas.png);
+  background-size: cover;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.texto_info {
+  font-size: 24px;
+  text-align: justify;
+}
+.dis_fl {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.itm_int {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.mt-auto.footer-dark.text-light.bg-secondary {
+  background-color: #872639 !important;
+}
+.piso_1.container-fluid {
+  background-image: url(/themes/custom/themeprop/images/bg_3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
